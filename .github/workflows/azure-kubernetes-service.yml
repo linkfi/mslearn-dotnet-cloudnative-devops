@@ -39,8 +39,8 @@ env:
   CONTAINER_NAME: 'productservice'
   RESOURCE_GROUP: 'tempresgrp'
   CLUSTER_NAME: 'tempaks01'
-  DEPLOYMENT_MANIFEST_PATH: './dotnet-deploy/Product.yml'
-  DOCKER_PATH: './dotnet-deploy/DockerfileProducts'
+  DEPLOYMENT_MANIFEST_PATH: './product.yml'
+  DOCKER_PATH: './DockerfileProducts'
 
 jobs:
   buildImage:
